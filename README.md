@@ -31,23 +31,27 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
 Tipos: 
-    1º Gráficas Integradas(iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
+- 1º Gráficas Integradas(iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
         - Son economicas y consumen poca energia.
         - Se utilizan para ofimática, navegación,videos y juegos poco exigentes.
         - Ejemplo: Intel UHD Graphics y AMD Radeon 780M.
-    2º Graficas dedicadas(dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
-        -Ofrecen mayor potencia de procesamiento.
-        -Se utilizan para videojuegos, edidición de vídeo,diseño 3D e inteligencia artificial.
-        -Ejemplo: Nvidia GeForce RTX 5090, AMD Radeon RX 9070XT.
-    3º Graficas externas(eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
+
+- 2º Graficas dedicadas(dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
+        - Ofrecen mayor potencia de procesamiento.
+        - Se utilizan para videojuegos, edidición de vídeo,diseño 3D e inteligencia artificial.
+        - Ejemplo: Nvidia GeForce RTX 5090, AMD Radeon RX 9070XT.
+
+- 3º Graficas externas(eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
         -Permite aumentar la potencia de trabajo en algunos portatiles.
         -Se utiliza para videojuegos y trabajos gráficos exigentes.
         -Suelen conectarse mediante Thunderbolt(conexión de alta velocidad desarrollada por Intel, desde la version 3 adelante usa USB Tipo-C) o USB4 compatible.
-    4º Graficas Vrituales (vGPU):Son una tecnologia que permite compartir recursos de una tarjeta gráfica física entre varias maquinas virtuales o usuarios, proporcionando a cada uno acceso a una GPU virtual.
+
+- 4º Graficas Vrituales (vGPU):Son una tecnologia que permite compartir recursos de una tarjeta gráfica física entre varias maquinas virtuales o usuarios, proporcionando a cada uno acceso a una GPU virtual.
         -Permiten utilizar los recursos graficos de una misma GPU física entre varios usuarios.
         -Se utilizan en centros de datos, escritorios virutales, diseño 3D y aplicaciones profesionales.
         -Ejemplo Nvidia vGPU.
-    5º Gráficas profesionales: Estan diseñadas para aplicaciones profesionales y estaciones de trabajo.
+
+- 5º Gráficas profesionales: Estan diseñadas para aplicaciones profesionales y estaciones de trabajo.
         -Priorizan la estabilidad y la compatibilidad con programas profesionales.
         -Se utilizan para arquitectura, ingenieróa, CAD , simulaciones y renderizado.
         -Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
