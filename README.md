@@ -22,7 +22,13 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 
 | Característica | Unidad | Valores típicos hoy | Qué significa |
 |---|---|---|---|
-|
+|Frecuencia de reloj|MHz o Ghz| entre 1,5 y 3 Ghz|Indica la cantidad de ciclos de reloj que realiza la GPU por segundo|
+|Memoria Gráfica VRAM| Gb|Entre 8 y 16 Gb. Las de gama alta pueden ser de 32GB| 
+|Rendiento de cálculo|GFLops o TFLOPS|Aproximadamente 10-50 TFLOPS dependiendo de gama y arquitectura |Cantidad de operaciones de coma flotante que puede realizar por segundo|
+|Ancho de banda GB/s| Entre 300 y 800GB/s en muchas GPU actuales. Las de gama alta pueden superor los 1000gb/s| Cantidad de datos que se pueden transferir por segundo|
+|Consumo eléctrico| W vatios| Entre 100 y 350 W en muchas tarjetas de cosnumo. Las de gama alta pueden superar los 500 W| Potencia electrica que consume la GPU|
+|Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperatura que suelen alcanzar durante su funcionamiento|
+|Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
 
 ## 5. Un modelo real: ficha técnica interpretada
@@ -60,7 +66,7 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 |Direct x12 Ultimate| Conjunto de tecnologias y herramientas que permiten ejecutar graficos avanzados en videojuegos| Muy buenom permite aprovechar gráficos modernos|
 |---|---|---|
 
-[Modelo Nvidia Geforce RTX 5090](img/Rtx5090x.jpg) -->
+[Modelo Nvidia Geforce RTX 5090](img/Rtx5090.jpg) -->
 
 ## 6. Averías típicas y errores al elegirla o instalarla
 
