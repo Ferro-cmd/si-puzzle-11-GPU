@@ -16,7 +16,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 
 ![Esquema de funcionamiento](img/EsquemaGpu.png)
 
-<!-- Guardad vuestras imágenes en img/ y cambiad el nombre del archivo en la línea de arriba. -->  w
+<!-- Guardad vuestras imágenes en img/ y cambiad el nombre del archivo en la línea de arriba. --> 
 
 ## 3. Características, unidades y cómo se miden
 
@@ -27,7 +27,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 
 ## 5. Un modelo real: ficha técnica interpretada
 
-**Modelo:** Marca Modelo (enlace a la ficha del fabricante)
+**Modelo** Nvidia GeForce RTX 5090 (https://www.nvidia.com/es-es/geforce/graphics-cards/50-series/rtx-5090/)
 
 | Dato de la ficha | Qué significa | ¿Es bueno? ¿Para qué uso? |
 |---|---|---|
