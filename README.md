@@ -84,11 +84,23 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 ## 6. Averías típicas y errores al elegirla o instalarla
 Artefactos visuales: ( Líneas , puntos , cuadros o colores raros en pantalla). Entre sus causas habituales, pueden ser por sobrecalentamiento, problemas en la fuente de alimentación o fallos en los drivers (Software de la GPU), el overclock de la gráfica (técnica que consiste en forzar la GPU a una frecuencia de reloj mas alta). Indicio para detectar este fallo, si los artefactos aparecen en varias aplicaciones y tras actualizar/cambiar los drivers, continuan estos errores, es probable que sea culpa del hardware.
 
+Pantalla negra o sin imagen: Puede deberse a un fallo real en la tarjeta, o simplemente a que el cable del monitor, o la entrada de este puede no estar bien conectado a la ranura PCIe. Además es tambien interesante comprobar los drivers para descartar un fallo real. Los drivers corruptos o desactualizados son algunas de las razones más comunes por las que una tarjeta en buen estado da la impresión de no funcionar.
+
+Sobrecalentamiento: Una GPU cuando el calor es excesivo, lo primero que hace es reducir su rendimiento, llegando a provocar tirones, si la temperatura sigue subiendo, se apaga automaticamente para protegerse,por lo que no daría imagen, es decir pantalla negra. Hay programas con los que monitorizar las temperaturas de las gráficas, como MSI Afterburner o HWMonitor. Es realmente peligroso mantenerse por encima de 85º, y esto es probable que ocurra por una mala fijación del disipador o por una pasta térmica reseca.
 ## 7. Fuentes
 
 1.Coolmod. (s. f.). Tipos de tarjetas gráficas: guía fácil para elegir la adecuada. https://www.coolmod.com/blog/categorias/componentes/tipos-de-tarjetas-graficas-guia-facil-para-elegir-la-adecuada/
-2.
-3.
+
+2. Flinders, M., Susnjara, S., & Smalley, I. (s. f.). ¿Qué es una unidad de procesamiento gráfico (GPU)? IBM. [https://www.ibm.com/es-es/think/topics/gpu](https://www.ibm.com/es-es/think/topics/gpu
+
+3. NVIDIA. (s. f.). 1.1. Introduction. NVIDIA CUDA Programming Guide. [https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html)
+
+4. Notebookcheck. (s. f.). NVIDIA GeForce RTX 5090: Benchmarks and specs. [https://www.notebookcheck.net/NVIDIA-GeForce-RTX-5090-Benchmarks-and-Specs.935680.0.html](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-5090-Benchmarks-and-Specs.935680.0.html)
+
+5. Olšan, J. (2022). AMD RDNA 3 details: Architecture changes, AI acceleration, DP 2.1. HWCooling.net. [https://www.hwcooling.net/en/amd-rdna-3-details-architecture-changes-ai-acceleration-dp-2-1-en/](https://www.hwcooling.net/en/amd-rdna-3-details-architecture-changes-ai-acceleration-dp-2-1-en/)
+
+6. TechPowerUp. (s. f.). TechPowerUp. [https://www.techpowerup.com/](https://www.techpowerup.com/)
+
 ## Uso de IA
 
 Qué preguntamos a Jarvis u otra IA y cómo comprobamos sus respuestas.
