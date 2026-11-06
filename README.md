@@ -1,6 +1,6 @@
 # Puzzle UT2 · Pieza NN: Nombre de la pieza
 
-**Grupo:** Nombre Apellido (@usuario) · Esteban Amador Fernández (@esamdor23)
+**Grupo:** Pablo Quiros Dominguez|(@Ferro-cmd) · Esteban Amador Fernández (@esamdor23)
 
 > Máximo 2 folios por las dos caras (unas 1.600–2.000 palabras) y al menos 3 imágenes en `img/`.
 
@@ -16,7 +16,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 
 ![Esquema de funcionamiento](img/EsquemaGpu.png)
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
-<!-- Guardad vuestras imágenes en img/ y cambiad el nombre del archivo en la línea de arriba. --> 
+ 
 
 ## 3. Características, unidades y cómo se miden
 
@@ -87,3 +87,5 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 ## Uso de IA
 
 Qué preguntamos a Jarvis u otra IA y cómo comprobamos sus respuestas.
+otra IA y cómo comprobamos sus respuestas.
+    Debemos especificar bien la pregunta y la respuesta que deseamos.A continuación debemos pedir las fuentes que ha consultado y comprobar que son fiables. Después debemos consultar la información que nos ha proporcionado y compararla con las fuentes fiables que hemos encontrado y comprobado. 
