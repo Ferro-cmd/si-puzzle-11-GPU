@@ -15,6 +15,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 ## 2. Cómo funciona por dentro
 
 ![Esquema de funcionamiento](img/EsquemaGpu.png)
+![Tarjeta por dentro](img/GraficaAbierta.png)
 
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
  
@@ -24,9 +25,9 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 | Característica | Unidad | Valores típicos hoy | Qué significa |
 |---|---|---|---|
 |Frecuencia de reloj|MHz o Ghz| entre 1,5 y 3 Ghz|Indica la cantidad de ciclos de reloj que realiza la GPU por segundo|
-|Memoria Gráfica VRAM| Gb|Entre 8 y 16 Gb. Las de gama alta pueden ser de 32GB| 
+|Memoria Gráfica VRAM| Gb|Entre 8 y 16 Gb. Las de gama alta pueden ser de 32GB|Capacidad de almacenamiento de datos gráficos |
 |Rendiento de cálculo|GFLops o TFLOPS|Aproximadamente 10-50 TFLOPS dependiendo de gama y arquitectura |Cantidad de operaciones de coma flotante que puede realizar por segundo|
-|Ancho de banda GB/s| Entre 300 y 800GB/s en muchas GPU actuales. Las de gama alta pueden superor los 1000gb/s| Cantidad de datos que se pueden transferir por segundo|
+|Ancho de banda GB/s|GB/s| Entre 300 y 800GB/s en muchas GPU actuales. Las de gama alta pueden superor los 1000gb/s| Cantidad de datos que se pueden transferir por segundo|
 |Consumo eléctrico| W vatios| Entre 100 y 350 W en muchas tarjetas de cosnumo. Las de gama alta pueden superar los 500 W| Potencia electrica que consume la GPU|
 |Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperatura que suelen alcanzar durante su funcionamiento|
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
@@ -79,7 +80,7 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 |Direct x12 Ultimate| Conjunto de tecnologias y herramientas que permiten ejecutar graficos avanzados en videojuegos| Muy buenom permite aprovechar gráficos modernos|
 
 
-[Modelo Nvidia Geforce RTX 5090](img/Rtx5090.jpg) -->
+![Modelo Nvidia Geforce RTX 5090](img/Rtx5090.jpg)
 
 ## 6. Averías típicas y errores al elegirla o instalarla
 Artefactos visuales: ( Líneas , puntos , cuadros o colores raros en pantalla). Entre sus causas habituales, pueden ser por sobrecalentamiento, problemas en la fuente de alimentación o fallos en los drivers (Software de la GPU), el overclock de la gráfica (técnica que consiste en forzar la GPU a una frecuencia de reloj mas alta). Indicio para detectar este fallo, si los artefactos aparecen en varias aplicaciones y tras actualizar/cambiar los drivers, continuan estos errores, es probable que sea culpa del hardware.
@@ -89,7 +90,7 @@ Pantalla negra o sin imagen: Puede deberse a un fallo real en la tarjeta, o simp
 Sobrecalentamiento: Una GPU cuando el calor es excesivo, lo primero que hace es reducir su rendimiento, llegando a provocar tirones, si la temperatura sigue subiendo, se apaga automaticamente para protegerse,por lo que no daría imagen, es decir pantalla negra. Hay programas con los que monitorizar las temperaturas de las gráficas, como MSI Afterburner o HWMonitor. Es realmente peligroso mantenerse por encima de 85º, y esto es probable que ocurra por una mala fijación del disipador o por una pasta térmica reseca.
 ## 7. Fuentes
 
-1.Coolmod. (s. f.). Tipos de tarjetas gráficas: guía fácil para elegir la adecuada. https://www.coolmod.com/blog/categorias/componentes/tipos-de-tarjetas-graficas-guia-facil-para-elegir-la-adecuada/
+1. Coolmod. (s. f.). Tipos de tarjetas gráficas: guía fácil para elegir la adecuada. https://www.coolmod.com/blog/categorias/componentes/tipos-de-tarjetas-graficas-guia-facil-para-elegir-la-adecuada/
 
 2. Flinders, M., Susnjara, S., & Smalley, I. (s. f.). ¿Qué es una unidad de procesamiento gráfico (GPU)? IBM. [https://www.ibm.com/es-es/think/topics/gpu](https://www.ibm.com/es-es/think/topics/gpu
 
@@ -105,4 +106,5 @@ Sobrecalentamiento: Una GPU cuando el calor es excesivo, lo primero que hace es 
 
 Qué preguntamos a Jarvis u otra IA y cómo comprobamos sus respuestas.
 otra IA y cómo comprobamos sus respuestas.
-    Debemos especificar bien la pregunta y la respuesta que deseamos.A continuación debemos pedir las fuentes que ha consultado y comprobar que son fiables. Después debemos consultar la información que nos ha proporcionado y compararla con las fuentes fiables que hemos encontrado y comprobado. 
+    
+Debemos especificar bien la pregunta y la respuesta que deseamos.A continuación debemos pedir las fuentes que ha consultado y comprobar que son fiables. Después debemos consultar la información que nos ha proporcionado y compararla con las fuentes fiables que hemos encontrado y comprobado. 
