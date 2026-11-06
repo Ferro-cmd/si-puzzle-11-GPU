@@ -15,7 +15,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 ## 2. Cómo funciona por dentro
 
 ![Esquema de funcionamiento](img/EsquemaGpu.png)
-
+Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
 <!-- Guardad vuestras imágenes en img/ y cambiad el nombre del archivo en la línea de arriba. --> 
 
 ## 3. Características, unidades y cómo se miden
@@ -31,10 +31,39 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 
 | Dato de la ficha | Qué significa | ¿Es bueno? ¿Para qué uso? |
 |---|---|---|
+|Arquitectura Blackwell| Es la tecnologia y diseño interno sobre el que esta construida la GPU|La usamos para el rendimiento grafico la eficiencia y el procesamiento de ia|
+|---|---|---|
+|21760 nucleos CUDA|Son unidades de procesamiento que realizan calculos en paralelo| Se utilizan para el renderizado, videojuegos calculos cientificos e ia|
+|---|---|---|
+Frecuencia base 2,01GHZ| Velocidad de funcionamiento de los nucleos de la GPU| Es una frecuencia alta y sirve para procesar rapidamente|
+|Frecuencia Boost 2,41GHZ|Velocidad que pueda alcanzar automaticamente la GPU cuando las condiciones la permiten| Aumenta mucho el rendimiento|
+|---|---|---|
+|32GB DDR7|Cantidad y tipo de memoria dedicada de la tarjeta grafica| Permite trabajar con texturas en alta resolucion, videojuegos eigentes, videos y modelos IA grandes|
+|---|---|---|
+|Interfaz de memoria 512 bits|Anchura del bus por el que se transfieren datos| Permite transferir grandes cantidades de informacion simultaneamente|
+|---|---|---|
+|Ancho de banda 1.792GB/s|Cantidad de datos que puede transferir por segundo| Facilita trabajar con grandes volumenes de datos y graficos de alta calidad|
+|---|---|---|
+|Nucleos Tensor de 5ªgeneración|Núcleos especializados en operaciones matematicas utilizadas por la IA| Se utilizan para el aprendizaje automatico y tecnologias como DLSS|
+|---|---|---|
+Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular iluminacion sombras y reflejos| Se utiliza para conseguir graficos mas realistas en videojuegos y aplicaciones 3D|
+|---|---|---|
+|3352 AI tops| Capacidad de procesamiento de operaciones de inteligencia artificial por segundi| Peermite acelerar tareas de IA y generacion de imagenes|
+|---|---|---|
+|PCI express 5.0| Interfaz de conexion entre la placa base y la GPU| Ofrece un gran ancho de banda para la comunicacion con el resto del ordenador|
+|---|---|---|
+|Potencia Gráfica 575 W| Consumo electrico aproximado| Es una potencia alta, necesita una buena fuente de alimentacion y una refrigración acorde|
+|---|---|---|
+|Resolución máxima 8k|Resolucion de imagen que puede transmitir a una pantalla compatible| Permite trabajar y jugar a gran resolución|
+|3 displayPort y 1 HDMI| Conexiones disponibles para monitores |Permite conectar hasta 4 pantallas|
+|---|---|---|
+|Direct x12 Ultimate| Conjunto de tecnologias y herramientas que permiten ejecutar graficos avanzados en videojuegos| Muy buenom permite aprovechar gráficos modernos|
+|---|---|---|
 
-<!-- Aquí va la foto o captura del modelo: ![Foto del modelo](img/modelo.jpg) -->
+[Modelo Nvidia Geforce RTX 5090](img/Rtx5090x.jpg) -->
 
 ## 6. Averías típicas y errores al elegirla o instalarla
+
 
 ## 7. Fuentes
 
