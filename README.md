@@ -30,41 +30,49 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 |Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperatura que suelen alcanzar durante su funcionamiento|
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
-
-## 5. Un modelo real: ficha técnica interpretada
+Tipos: 
+    1º Gráficas Integradas(iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
+        - Son economicas y consumen poca energia.
+        - Se utilizan para ofimática, navegación,videos y juegos poco exigentes.
+        - Ejemplo: Intel UHD Graphics y AMD Radeon 780M.
+    2º Graficas dedicadas(dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
+        -Ofrecen mayor potencia de procesamiento.
+        -Se utilizan para videojuegos, edidición de vídeo,diseño 3D e inteligencia artificial.
+        -Ejemplo: Nvidia GeForce RTX 5090, AMD Radeon RX 9070XT.
+    3º Graficas externas(eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
+        -Permite aumentar la potencia de trabajo en algunos portatiles.
+        -Se utiliza para videojuegos y trabajos gráficos exigentes.
+        -Suelen conectarse mediante Thunderbolt(conexión de alta velocidad desarrollada por Intel, desde la version 3 adelante usa USB Tipo-C) o USB4 compatible.
+    4º Graficas Vrituales (vGPU):Son una tecnologia que permite compartir recursos de una tarjeta gráfica física entre varias maquinas virtuales o usuarios, proporcionando a cada uno acceso a una GPU virtual.
+        -Permiten utilizar los recursos graficos de una misma GPU física entre varios usuarios.
+        -Se utilizan en centros de datos, escritorios virutales, diseño 3D y aplicaciones profesionales.
+        -Ejemplo Nvidia vGPU.
+    5º Gráficas profesionales: Estan diseñadas para aplicaciones profesionales y estaciones de trabajo.
+        -Priorizan la estabilidad y la compatibilidad con programas profesionales.
+        -Se utilizan para arquitectura, ingenieróa, CAD , simulaciones y renderizado.
+        -Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
+   ## 5. Un modelo real: ficha técnica interpretada
 
 **Modelo** Nvidia GeForce RTX 5090 (https://www.nvidia.com/es-es/geforce/graphics-cards/50-series/rtx-5090/)
 
 | Dato de la ficha | Qué significa | ¿Es bueno? ¿Para qué uso? |
 |---|---|---|
 |Arquitectura Blackwell| Es la tecnologia y diseño interno sobre el que esta construida la GPU|La usamos para el rendimiento grafico la eficiencia y el procesamiento de ia|
-|---|---|---|
 |21760 nucleos CUDA|Son unidades de procesamiento que realizan calculos en paralelo| Se utilizan para el renderizado, videojuegos calculos cientificos e ia|
-|---|---|---|
 Frecuencia base 2,01GHZ| Velocidad de funcionamiento de los nucleos de la GPU| Es una frecuencia alta y sirve para procesar rapidamente|
 |Frecuencia Boost 2,41GHZ|Velocidad que pueda alcanzar automaticamente la GPU cuando las condiciones la permiten| Aumenta mucho el rendimiento|
-|---|---|---|
 |32GB DDR7|Cantidad y tipo de memoria dedicada de la tarjeta grafica| Permite trabajar con texturas en alta resolucion, videojuegos eigentes, videos y modelos IA grandes|
-|---|---|---|
 |Interfaz de memoria 512 bits|Anchura del bus por el que se transfieren datos| Permite transferir grandes cantidades de informacion simultaneamente|
-|---|---|---|
 |Ancho de banda 1.792GB/s|Cantidad de datos que puede transferir por segundo| Facilita trabajar con grandes volumenes de datos y graficos de alta calidad|
-|---|---|---|
 |Nucleos Tensor de 5ªgeneración|Núcleos especializados en operaciones matematicas utilizadas por la IA| Se utilizan para el aprendizaje automatico y tecnologias como DLSS|
-|---|---|---|
 Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular iluminacion sombras y reflejos| Se utiliza para conseguir graficos mas realistas en videojuegos y aplicaciones 3D|
-|---|---|---|
 |3352 AI tops| Capacidad de procesamiento de operaciones de inteligencia artificial por segundi| Peermite acelerar tareas de IA y generacion de imagenes|
-|---|---|---|
 |PCI express 5.0| Interfaz de conexion entre la placa base y la GPU| Ofrece un gran ancho de banda para la comunicacion con el resto del ordenador|
-|---|---|---|
 |Potencia Gráfica 575 W| Consumo electrico aproximado| Es una potencia alta, necesita una buena fuente de alimentacion y una refrigración acorde|
-|---|---|---|
 |Resolución máxima 8k|Resolucion de imagen que puede transmitir a una pantalla compatible| Permite trabajar y jugar a gran resolución|
 |3 displayPort y 1 HDMI| Conexiones disponibles para monitores |Permite conectar hasta 4 pantallas|
-|---|---|---|
 |Direct x12 Ultimate| Conjunto de tecnologias y herramientas que permiten ejecutar graficos avanzados en videojuegos| Muy buenom permite aprovechar gráficos modernos|
-|---|---|---|
+
 
 [Modelo Nvidia Geforce RTX 5090](img/Rtx5090.jpg) -->
 
@@ -73,10 +81,9 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 
 ## 7. Fuentes
 
-1.
+1.Coolmod. (s. f.). Tipos de tarjetas gráficas: guía fácil para elegir la adecuada. https://www.coolmod.com/blog/categorias/componentes/tipos-de-tarjetas-graficas-guia-facil-para-elegir-la-adecuada/
 2.
 3.
-
 ## Uso de IA
 
 Qué preguntamos a Jarvis u otra IA y cómo comprobamos sus respuestas.
