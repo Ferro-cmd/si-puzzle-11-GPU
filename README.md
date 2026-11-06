@@ -5,7 +5,7 @@
 > Máximo 2 folios por las dos caras (unas 1.600–2.000 palabras) y al menos 3 imágenes en `img/`.
 
 ## 1. Qué es y qué función cumple en el sistema
-- Las siglas GPU, significan "Unidad de Procesamiento Gráfico", en español, y es un circuito electrónico, que sirve para acelerar el procesamiento informático de gráficos e imágenes.  Al principio fue concebido como un procesador especializado en gráficos 3D, comenzó siendo un hardware de función fija, destinada a acelerar operaciones en paralelo durante el renderizado 3D en tiempo real. Durante los años posteriores, adquirieron más capacidad de programación, y en 2003 algunas etapas de canalización gráfica llamada pipeline se volvieron totalmente programables, gracias a esto se permitía la ejecución de código personalizado en paralelo para cada componente de una escena 3d o imagen. 
+Las siglas GPU, significan "Unidad de Procesamiento Gráfico", en español, y es un circuito electrónico, que sirve para acelerar el procesamiento informático de gráficos e imágenes.  Al principio fue concebido como un procesador especializado en gráficos 3D, comenzó siendo un hardware de función fija, destinada a acelerar operaciones en paralelo durante el renderizado 3D en tiempo real. Durante los años posteriores, adquirieron más capacidad de programación, y en 2003 algunas etapas de canalización gráfica llamada pipeline se volvieron totalmente programables, gracias a esto se permitía la ejecución de código personalizado en paralelo para cada componente de una escena 3d o imagen. 
 
 Su función principal es generar las imágenes que vemos, recibe de la CPU las instrucciones programa, y calcula el color de cada píxel de la pantalla, decenas o cientos de veces por segundo, y luego envía la imagen al monitor por HDMI o DisplayPort.
 
@@ -15,6 +15,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 ## 2. Cómo funciona por dentro
 
 ![Esquema de funcionamiento](img/EsquemaGpu.png)
+
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
  
 
@@ -31,30 +32,30 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
 Tipos: 
-- 1º Gráficas Integradas(iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
-        - Son economicas y consumen poca energia.
-        - Se utilizan para ofimática, navegación,videos y juegos poco exigentes.
-        - Ejemplo: Intel UHD Graphics y AMD Radeon 780M.
+1º Gráficas Integradas(iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
+- Son economicas y consumen poca energia.
+- Se utilizan para ofimática, navegación,videos y juegos poco exigentes.
+- Ejemplo: Intel UHD Graphics y AMD Radeon 780M.
 
-- 2º Graficas dedicadas(dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
-        - Ofrecen mayor potencia de procesamiento.
-        - Se utilizan para videojuegos, edidición de vídeo,diseño 3D e inteligencia artificial.
-        - Ejemplo: Nvidia GeForce RTX 5090, AMD Radeon RX 9070XT.
+2º Graficas dedicadas(dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
+- Ofrecen mayor potencia de procesamiento.
+- Se utilizan para videojuegos, edidición de vídeo,diseño 3D e inteligencia artificial.
+- Ejemplo: Nvidia GeForce RTX 5090, AMD Radeon RX 9070XT.
 
-- 3º Graficas externas(eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
-        -Permite aumentar la potencia de trabajo en algunos portatiles.
-        -Se utiliza para videojuegos y trabajos gráficos exigentes.
-        -Suelen conectarse mediante Thunderbolt(conexión de alta velocidad desarrollada por Intel, desde la version 3 adelante usa USB Tipo-C) o USB4 compatible.
+3º Graficas externas(eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
+- Permite aumentar la potencia de trabajo en algunos portatiles.
+- Se utiliza para videojuegos y trabajos gráficos exigentes.
+- Suelen conectarse mediante Thunderbolt(conexión de alta velocidad desarrollada por Intel, desde la version 3 adelante usa USB Tipo-C) o USB4 compatible.
 
-- 4º Graficas Vrituales (vGPU):Son una tecnologia que permite compartir recursos de una tarjeta gráfica física entre varias maquinas virtuales o usuarios, proporcionando a cada uno acceso a una GPU virtual.
-        -Permiten utilizar los recursos graficos de una misma GPU física entre varios usuarios.
-        -Se utilizan en centros de datos, escritorios virutales, diseño 3D y aplicaciones profesionales.
-        -Ejemplo Nvidia vGPU.
+4º Graficas Vrituales (vGPU):Son una tecnologia que permite compartir recursos de una tarjeta gráfica física entre varias maquinas virtuales o usuarios, proporcionando a cada uno acceso a una GPU virtual.
+- Permiten utilizar los recursos graficos de una misma GPU física entre varios usuarios.
+- Se utilizan en centros de datos, escritorios virutales, diseño 3D y aplicaciones profesionales.
+- Ejemplo Nvidia vGPU.
 
-- 5º Gráficas profesionales: Estan diseñadas para aplicaciones profesionales y estaciones de trabajo.
-        -Priorizan la estabilidad y la compatibilidad con programas profesionales.
-        -Se utilizan para arquitectura, ingenieróa, CAD , simulaciones y renderizado.
-        -Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
+5º Gráficas profesionales: Estan diseñadas para aplicaciones profesionales y estaciones de trabajo.
+- Priorizan la estabilidad y la compatibilidad con programas profesionales.
+- Se utilizan para arquitectura, ingenieróa, CAD , simulaciones y renderizado.
+- Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
    ## 5. Un modelo real: ficha técnica interpretada
 
 **Modelo** Nvidia GeForce RTX 5090 (https://www.nvidia.com/es-es/geforce/graphics-cards/50-series/rtx-5090/)
@@ -81,7 +82,7 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 [Modelo Nvidia Geforce RTX 5090](img/Rtx5090.jpg) -->
 
 ## 6. Averías típicas y errores al elegirla o instalarla
-
+Artefactos visuales: ( Líneas , puntos , cuadros o colores raros en pantalla). Entre sus causas habituales, pueden ser por sobrecalentamiento, problemas en la fuente de alimentación o fallos en los drivers (Software de la GPU), el overclock de la gráfica (técnica que consiste en forzar la GPU a una frecuencia de reloj mas alta). Indicio para detectar este fallo, si los artefactos aparecen en varias aplicaciones y tras actualizar/cambiar los drivers, continuan estos errores, es probable que sea culpa del hardware.
 
 ## 7. Fuentes
 
