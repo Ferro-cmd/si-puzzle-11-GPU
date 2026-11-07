@@ -14,7 +14,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 ## 2. Cómo funciona por dentro
 
 ![Esquema de funcionamiento](img/Gpu-actividad2.png)
-
+![Esquema GPU con flechas](img/GPU_esquema_anotado.jpg)
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
  
 
