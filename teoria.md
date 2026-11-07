@@ -6,7 +6,10 @@
 
 ## Conceptos clave
 
-- **GPU:** .
+- **GPU:** Unidad de Procesamiento Gráfico, en español, es un circuito electrónico que sirve para acelerar el procesamiento informático de gráficos e imágenes. 
+
+
+- **Controlador :**  
 
 ## Tabla resumen
 
