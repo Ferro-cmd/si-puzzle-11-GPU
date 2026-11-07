@@ -2,7 +2,7 @@
 
 **Grupo:** Pablo Quiros Dominguez|(@Ferro-cmd) · Esteban Amador Fernández (@esamdor23)
 
-
+![Foto RX 7900XT P](img/)
 ## 1. Qué es y qué función cumple en el sistema
 Las siglas GPU, significan "Unidad de Procesamiento Gráfico", en español, y es un circuito electrónico, que sirve para acelerar el procesamiento informático de gráficos e imágenes.  Al principio fue concebido como un procesador especializado en gráficos 3D, comenzó siendo un hardware de función fija, destinada a acelerar operaciones en paralelo durante el renderizado 3D en tiempo real. Durante los años posteriores, adquirieron más capacidad de programación, y en 2003 algunas etapas de canalización gráfica llamada pipeline se volvieron totalmente programables, gracias a esto se permitía la ejecución de código personalizado en paralelo para cada componente de una escena 3d o imagen. 
 
@@ -102,7 +102,10 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 
 **Salidas de video:** Pueden aparecer pantalla negra, parpadeos , en la imagen , artefacto visuales o distorsión de color o reconocimiento parcial, que consiste en que detecta un monitor pero no muestra imagen o limita la resolución. Este tipo de errores puede deberse a que el HDMI o DisplayPort este en mal estado, que estos puertos esten dañados, sucios o desoldados por el peso de cables sobre la placa base, por último este tipo de errores puede deberse simplemente a que no está bien encajada la GPU.
 
-## 7. Fuentes
+
+## 7. GPU frente a CPU
+
+## 8. Fuentes
 
 1. Box. (2026, 14 de enero). GPU no display / no signal - Step by step troubleshooting guide. https://box.co.uk/blog/gpu-display-troubleshooting-guide
 
