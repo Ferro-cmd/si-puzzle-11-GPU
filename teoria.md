@@ -22,8 +22,8 @@
 |Grafica Integrada (iGPU)|Forma parte de la CPU o del chip principal y usa la RAM del sistema; consume y cuesta poco pero su potencia es limitada|Se usa en portatiles, en ordenadores de ofimatica y equipos compactos|
 |Dedicada GPU|Tarjeta independiente en ranura PCIe, con su propio chip, VRAM, refrigeración y alimentación. Es mucho más potente pero más cara y requiere más energía|Se usa videojuegos, edición de video, renderizado 3D e IA|
 |Virtual vGPU|No es un chip, es una forma de repartir una GPU física en varias GPU virtuales para distintas máquinas virtuales|Se usa en servidores y centros de datos|
-|Gráfica Externa|Son tarjets dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad|Se usa para aumetnar la potencia de una misma GPU física entre varios usuarios.|Se utiliza para videojusegos y trabajos gráficos exigentes|
-|Gráficas profesionales|Estan diseñadas para apicaciones profesionales y estaciones de trabajo|
+|Gráfica Externa|Son tarjets dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad|Se usa para aumetnar la potencia de una misma GPU física entre varios usuarios.|Se utiliza para videojuegos y trabajos gráficos exigentes|
+|Gráficas profesionales|Estan diseñadas para apicaciones profesionales y estaciones de trabajo|Se usa para arquitectura, ingenieria, simulaciones,y renderizado |
 
 ## Datos que hay que saberse
 - La GPU ejecuta la misma operación sobre muchisimos datos a la vez,(cálculo en paralelo).
@@ -48,9 +48,30 @@ c) Sobrecalentamiento: La GPU debido al calentamiento excesivo, reduce su rendim
 d) Salidas de vídeo: Puede deberse a distintos factores, Pueden aparecer pantalla negra, parpadeos , en la imagen , artefacto visuales o distorsión de color o reconocimiento parcial, que consiste en que detecta un monitor pero no muestra imagen o limita la resolución. Este tipo de errores puede deberse a que el HDMI o DisplayPort este en mal estado, que estos puertos esten dañados, sucios o desoldados por el peso de cables sobre la placa base, por último este tipo de errores puede deberse simplemente a que no esté bien encajada la GPU.
 ## Preguntas tipo test (8)
 
-1. Pregunta
-   - a) …
-   - b) …  ← correcta
-   - c) …
-   - d) …
-   - Explicación: …
+1. ¿Qué permite una GPU virtual(vGPU)?
+   - a) Aumentar la frecuencia de reloj de la GPU.
+   - b) Sustituir la CPU por la GPU.
+   - c) Compartir los recursos de una GPU fisica entre varias maquinas virtuales o usuarios. <---correcta
+   - d) Conectar varios monitores sin cables.
+   - Explicación: La vGPU reparte una GPU física en varias virtuales y se usa sobretodos en centros de datos.
+
+2. ¿Qué característica defina a una GPU integrada?
+   - a) Tiene su propia VRAM y refrigeración.
+   - b) Forma parte de la CPU o del chip princiap y usa la ram del sistema. <--- correcta.
+   - c) Se conecta por PCIe.
+   - d) Solo funciona en servidores.
+   - Explicación: las integradas no tienen memoria propia.
+
+3. ¿En que unidad se mide el ancho de banda de memoria de una GPU?
+   - a) Mhz.
+   - b) TFLOPS.
+   - c) W 
+   - d) GB/s <--- correcta
+   - Explicación: el ancho de banda indica cuantos datos puede transferir por segundo.
+
+4. ¿Para que sirve la VRAM?
+   - a) Para almacenar texturas, modelos y datos gráficos. <--- correcta
+   - b) Para almacenar el sistema operativo.
+   - c) Para almacenar los drivers de la tarjeta,
+   - d) Para enviar instrucciones a los núcleos de procesamiento.
+   - Explicación: es la memoria gráfica de la GPU y se mide en GB, se usa para guardar texturas modelos y datos gráficos.

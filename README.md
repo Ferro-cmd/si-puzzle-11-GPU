@@ -2,7 +2,6 @@
 
 **Grupo:** Pablo Quiros Dominguez|(@Ferro-cmd) · Esteban Amador Fernández (@esamdor23)
 
-> Máximo 2 folios por las dos caras (unas 1.600–2.000 palabras) y al menos 3 imágenes en `img/`.
 
 ## 1. Qué es y qué función cumple en el sistema
 Las siglas GPU, significan "Unidad de Procesamiento Gráfico", en español, y es un circuito electrónico, que sirve para acelerar el procesamiento informático de gráficos e imágenes.  Al principio fue concebido como un procesador especializado en gráficos 3D, comenzó siendo un hardware de función fija, destinada a acelerar operaciones en paralelo durante el renderizado 3D en tiempo real. Durante los años posteriores, adquirieron más capacidad de programación, y en 2003 algunas etapas de canalización gráfica llamada pipeline se volvieron totalmente programables, gracias a esto se permitía la ejecución de código personalizado en paralelo para cada componente de una escena 3d o imagen. 
@@ -15,7 +14,6 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 ## 2. Cómo funciona por dentro
 
 ![Esquema de funcionamiento](img/Gpu-actividad2.png)
-![Tarjeta por dentro](img/GraficaAbierta.png)
 
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
  
@@ -32,7 +30,8 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 |Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperaturas que suelen alcanzar durante su funcionamiento|
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
-Tipos: 
+Tipos:
+
 **1º Gráficas Integradas (iGPU):** Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
 - Son economicas y consumen poca energia.
 - Se utilizan para ofimática, navegación,videos y juegos poco exigentes.
@@ -93,17 +92,19 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 
 ## 7. Fuentes
 
-1. Coolmod. (s. f.). Tipos de tarjetas gráficas: guía fácil para elegir la adecuada. https://www.coolmod.com/blog/categorias/componentes/tipos-de-tarjetas-graficas-guia-facil-para-elegir-la-adecuada/
+1. Box. (2026, 14 de enero). GPU no display / no signal - Step by step troubleshooting guide. https://box.co.uk/blog/gpu-display-troubleshooting-guide
 
-2. Flinders, M., Susnjara, S., & Smalley, I. (s. f.). ¿Qué es una unidad de procesamiento gráfico (GPU)? IBM. [https://www.ibm.com/es-es/think/topics/gpu](https://www.ibm.com/es-es/think/topics/gpu
+2. Coolmod. (s. f.). Tipos de tarjetas gráficas: guía fácil para elegir la adecuada. https://www.coolmod.com/blog/categorias/componentes/tipos-de-tarjetas-graficas-guia-facil-para-elegir-la-adecuada/
 
-3. NVIDIA. (s. f.). 1.1. Introduction. NVIDIA CUDA Programming Guide. [https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html)
+3. Flinders, M., Susnjara, S., & Smalley, I. (s. f.). ¿Qué es una unidad de procesamiento gráfico (GPU)? IBM. [https://www.ibm.com/es-es/think/topics/gpu](https://www.ibm.com/es-es/think/topics/gpu
 
-4. Notebookcheck. (s. f.). NVIDIA GeForce RTX 5090: Benchmarks and specs. [https://www.notebookcheck.net/NVIDIA-GeForce-RTX-5090-Benchmarks-and-Specs.935680.0.html](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-5090-Benchmarks-and-Specs.935680.0.html)
+4. NVIDIA. (s. f.). 1.1. Introduction. NVIDIA CUDA Programming Guide. [https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/introduction.html)
 
-5. Olšan, J. (2022). AMD RDNA 3 details: Architecture changes, AI acceleration, DP 2.1. HWCooling.net. [https://www.hwcooling.net/en/amd-rdna-3-details-architecture-changes-ai-acceleration-dp-2-1-en/](https://www.hwcooling.net/en/amd-rdna-3-details-architecture-changes-ai-acceleration-dp-2-1-en/)
+5. Notebookcheck. (s. f.). NVIDIA GeForce RTX 5090: Benchmarks and specs. [https://www.notebookcheck.net/NVIDIA-GeForce-RTX-5090-Benchmarks-and-Specs.935680.0.html](https://www.notebookcheck.net/NVIDIA-GeForce-RTX-5090-Benchmarks-and-Specs.935680.0.html)
 
-6. TechPowerUp. (s. f.). TechPowerUp. [https://www.techpowerup.com/](https://www.techpowerup.com/)
+6. Olšan, J. (2022). AMD RDNA 3 details: Architecture changes, AI acceleration, DP 2.1. HWCooling.net. [https://www.hwcooling.net/en/amd-rdna-3-details-architecture-changes-ai-acceleration-dp-2-1-en/](https://www.hwcooling.net/en/amd-rdna-3-details-architecture-changes-ai-acceleration-dp-2-1-en/)
+
+7. TechPowerUp. (s. f.). TechPowerUp. [https://www.techpowerup.com/](https://www.techpowerup.com/)
 
 ## Uso de IA
 
