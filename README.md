@@ -16,7 +16,19 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 ![Esquema de funcionamiento](img/Gpu-actividad2.png)
 ![Esquema GPU con flechas](img/GPU_esquema_anotado.jpg)
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
- 
+
+
+| Concepto | NVIDIA | AMD | Intel |
+|---|---|---|---|
+| Unidad básica de cálculo | SM (multiprocesador de streaming) | CU (Compute Unit), agrupadas en WGP en RDNA | Xe-core |
+| Núcleos de cálculo | CUDA cores | Stream processors | Vector engines |
+| Matrices / IA | Tensor cores | AI accelerators (desde RDNA 3) | Motores XMX |
+| Trazado de rayos | RT cores | Ray accelerators | Unidades RT |
+| Grupo de hilos | Warp (32 hilos) | Wavefront (32 o 64) | Subgrupo (8, 16 o 32) |
+| Caché destacada | L2 grande | Infinity Cache (caché extra entre L2 y VRAM) | L2 grande |
+| Escalado por IA | DLSS | FSR | XeSS |
+| Programación general | CUDA | ROCm / HIP | oneAPI / SYCL |
+
 
 ## 3. Características, unidades y cómo se miden
 
