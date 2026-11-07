@@ -14,7 +14,7 @@ Otra función es acelerar cálculo en paralelo, como sus núcleos sirven para cu
 
 ## 2. Cómo funciona por dentro
 
-![Esquema de funcionamiento](img/EsquemaGpu.png)
+![Esquema de funcionamiento](img/Gpu-actividad2.png)
 ![Tarjeta por dentro](img/GraficaAbierta.png)
 
 Una GPU es un procesador pensado y especializado pensado para ejecutar la misma operación sobre muchísimos datos a la vez. La CPU envía trabajo como  geométrica, texturas, programas llamados shaders o kernels por el bus PCIe y lo reparte entre sus unidades de cálculo. Los núcleos de sombreado son las unidades que se ejecutan esos programas: los shaders son simplemente programas que corren en  estos núcleos. Cada fabricante nombra esas unidades de forma distinta, pero la estructura es parecida.
@@ -25,25 +25,25 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 | Característica | Unidad | Valores típicos hoy | Qué significa |
 |---|---|---|---|
 |Frecuencia de reloj|MHz o Ghz| entre 1,5 y 3 Ghz|Indica la cantidad de ciclos de reloj que realiza la GPU por segundo|
-|Memoria Gráfica VRAM| Gb|Entre 8 y 16 Gb. Las de gama alta pueden ser de 32GB|Capacidad de almacenamiento de datos gráficos |
+|Memoria Gráfica VRAM| GB|Entre 8 y 16 GB. Las de gama alta pueden ser de 32GB|Capacidad de almacenamiento de datos gráficos |
 |Rendiento de cálculo|GFLops o TFLOPS|Aproximadamente 10-50 TFLOPS dependiendo de gama y arquitectura |Cantidad de operaciones de coma flotante que puede realizar por segundo|
-|Ancho de banda GB/s|GB/s| Entre 300 y 800GB/s en muchas GPU actuales. Las de gama alta pueden superor los 1000gb/s| Cantidad de datos que se pueden transferir por segundo|
+|Ancho de banda GB/s|GB/s| Entre 300 y 800GB/s en muchas GPU actuales. Las de gama alta pueden superar los 1000GB/s| Cantidad de datos que se pueden transferir por segundo|
 |Consumo eléctrico| W vatios| Entre 100 y 350 W en muchas tarjetas de cosnumo. Las de gama alta pueden superar los 500 W| Potencia electrica que consume la GPU|
-|Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperatura que suelen alcanzar durante su funcionamiento|
+|Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperaturas que suelen alcanzar durante su funcionamiento|
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
 Tipos: 
-1º Gráficas Integradas(iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
+1º Gráficas Integradas (iGPU): Están incorporadas en el procesador o en el propio sistema. Utilizan normalmente la memoria RAM del ordenador. 
 - Son economicas y consumen poca energia.
 - Se utilizan para ofimática, navegación,videos y juegos poco exigentes.
 - Ejemplo: Intel UHD Graphics y AMD Radeon 780M.
 
-2º Graficas dedicadas(dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
+2º Graficas dedicadas (dGPU): Son tarjetas independientes que se conectan a la placa base y disponen de memoria gráfica propia(VRAM).
 - Ofrecen mayor potencia de procesamiento.
 - Se utilizan para videojuegos, edidición de vídeo,diseño 3D e inteligencia artificial.
 - Ejemplo: Nvidia GeForce RTX 5090, AMD Radeon RX 9070XT.
 
-3º Graficas externas(eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
+3º Graficas externas (eGPU): Son tarjetas dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad.
 - Permite aumentar la potencia de trabajo en algunos portatiles.
 - Se utiliza para videojuegos y trabajos gráficos exigentes.
 - Suelen conectarse mediante Thunderbolt(conexión de alta velocidad desarrollada por Intel, desde la version 3 adelante usa USB Tipo-C) o USB4 compatible.
@@ -57,7 +57,7 @@ Tipos:
 - Priorizan la estabilidad y la compatibilidad con programas profesionales.
 - Se utilizan para arquitectura, ingenieróa, CAD , simulaciones y renderizado.
 - Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
-   ## 5. Un modelo real: ficha técnica interpretada
+## 5. Un modelo real: ficha técnica interpretada
 
 **Modelo** Nvidia GeForce RTX 5090 (https://www.nvidia.com/es-es/geforce/graphics-cards/50-series/rtx-5090/)
 
