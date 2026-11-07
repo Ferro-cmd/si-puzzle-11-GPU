@@ -6,7 +6,7 @@
 
 ## Conceptos clave
 
-- **Concepto:** definición breve.
+- **GPU:** .
 
 ## Tabla resumen
 
