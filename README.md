@@ -107,6 +107,14 @@ Nucleos Ray Tracing de 4ª generacion|Unidades especializadas en calcular ilumin
 
 ## 7. GPU frente a CPU
 
+La CPU y la GPU son procesadores, pero se diseñaron para resolver problemas distintos. La CPU (Unidad Central de Procesamiento) es el procesador de propósito general del equipo. Está pensada para ejecutar con la mayor rapidez posible instrucciones muy variadas y con muchas decisiones, como arrancar el sistema operativo, gestionar archivos o ejecutar la lógica de un programa. Por eso tiene pocos núcleos, normalmente entre 4 y 24 en un equipo doméstico, pero muy potentes y con mucha memoria caché y lógica de control.
+
+La GPU (Unidad de Procesamiento Gráfico) nació para una tarea muy concreta: calcular millones de píxeles por pantalla muchas veces por segundo. Esa tarea consiste en repetir las mismas operaciones sobre enormes cantidades de datos independientes entre sí. Por eso su arquitectura apuesta por miles de núcleos pequeños y sencillos que trabajan a la vez. Una RX 7900 XT, por ejemplo, tiene 5.376 procesadores de flujo y 20 GB de memoria GDDR6 dedicada.
+
+### Conclusión
+
+La CPU es el “cerebro” versátil que dirige el sistema, y la GPU es un acelerador especializado en el cálculo masivo en paralelo. La evolución de la informática va hacia el uso combinado de ambas y de aceleradores cada vez más específicos, de modo que cada tipo de tarea se ejecute en el hardware más adecuado.
+
 ## 8. Fuentes
 
 1. Box. (2026, 14 de enero). GPU no display / no signal - Step by step troubleshooting guide. https://box.co.uk/blog/gpu-display-troubleshooting-guide
