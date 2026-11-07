@@ -1,4 +1,4 @@
-# Puzzle UT2 · Pieza NN: Nombre de la pieza
+# Puzzle UT2 · Pieza 11: Unidad de Procesamiento Gráfico
 
 **Grupo:** Pablo Quiros Dominguez|(@Ferro-cmd) · Esteban Amador Fernández (@esamdor23)
 

@@ -1,27 +1,35 @@
-# Teoría · Pieza NN: Nombre de la pieza
+# Teoría · Pieza 11: Unidad de Procesamiento Gráfico(GPU)
 
-**Grupo:** Nombre Apellido · Nombre Apellido
+**Grupo:** Pablo Quiros Dominguez · Esteban Amador Fernández
 
 > Máximo 1 folio por las dos caras. Es lo que estudiará toda la clase para el test: claro, exacto y sin relleno.
 
 ## Conceptos clave
 
 - **GPU:** Unidad de Procesamiento Gráfico, en español, es un circuito electrónico que sirve para acelerar el procesamiento informático de gráficos e imágenes. 
-
-
 - **Controlador  de la GPU:** Gestiona el flujo de datos y las instrucciones.  
 - **Núcleos de procesamiento:** Realizan los cálculos en paralelo, píxeles, efectos, ia...
-- **VRAM:** 
+- **VRAM:** Capacidad de almacenamiento de datos gráficos.
+- **Rendimiento de cálculo:** Cantidad de operaciones de coma flotante(calculos matematicos con numeros reales que contienen partes fraccionarias).
+- **Ancho de banda:** cantidad de datos que se pueden transferir por segundo.
+- **Consumo eléctrico:** Potencia electrica que consume la GPU.
+- **Unidades especializadas:** hardware diseñado especificamente para acelerar tareas matemáticas y de procesamiento masivo. Ej: IA, Ray Tracing.
+- **Interfaz de memoria:** Gestiona el acceso a la memoria y el ancho de banda.
 ## Tabla resumen
 
 | Tipo | Dato clave | Cuándo se usa |
 |---|---|---|
+|Grafica Integrada (iGPU)|Forma parte de la CPU o del chip principal y usa la RAM del sistema; consume y cuesta poco pero su potencia es limitada|Se usa en portatiles, en ordenadores de ofimatica y equipos compactos|
+|Dedicada GPU|Tarjeta independiente en ranura PCIe, con su propio chip, VRAM, refrigeración y alimentación. Es mucho más potente pero más cara y requiere más energía|Se usa videojuegos, edición de video, renderizado 3D e IA|
+|Virtual vGPU|No es un chip, es una forma de repartir una GPU física en varias GPU virtuales para distintas máquinas virtuales|Se usa en servidores y centros de datos|
+|Gráfica Externa|Son tarjets dedicadas instaladas en una carcasa externa que se conecta al ordenador mediante una interfaz de alta velocidad|Se usa para aumetnar la potencia de una misma GPU física entre varios usuarios.|Se utiliza para videojusegos y trabajos gráficos exigentes|
+|Gráficas profesionales|Estan diseñadas para apicaciones profesionales y estaciones de trabajo|
 
 ## Datos que hay que saberse
 - La GPU ejecuta la misma operación sobre muchisimos datos a la vez,(cálculo en paralelo).
 - Recibe las instrucciones de la CPU por bus PCIe y envia la imagen final al monitor por HDMI o DisplayPort.
 - Además de gráficos, sirve para entrenar modelos IA, codificar y decodificar vídeo y hacer simulaciones cientficas.
-- Unidades d e medida:
+- Unidades de medida:
 a) Frecuencia Mhz o Ghz.
 b) VRAM en GB.
 c) Rendimiento de cálculo en GFLOPS o TFLOPS.
