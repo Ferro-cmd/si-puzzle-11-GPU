@@ -41,7 +41,7 @@ Una GPU es un procesador pensado y especializado pensado para ejecutar la misma 
 |Memoria Gráfica VRAM| GB|Entre 8 y 16 GB. Las de gama alta pueden ser de 32GB|Capacidad de almacenamiento de datos gráficos |
 |Rendiento de cálculo|GFLops o TFLOPS|Aproximadamente 10-50 TFLOPS dependiendo de gama y arquitectura |Cantidad de operaciones de coma flotante que puede realizar por segundo|
 |Ancho de banda GB/s|GB/s| Entre 300 y 800GB/s en muchas GPU actuales. Las de gama alta pueden superar los 1000GB/s| Cantidad de datos que se pueden transferir por segundo|
-|Consumo eléctrico| W vatios| Entre 100 y 350 W en muchas tarjetas de cosnumo. Las de gama alta pueden superar los 500 W| Potencia electrica que consume la GPU|
+|Consumo eléctrico| W vatios| Entre 100 y 350 W en muchas tarjetas de consumo. Las de gama alta pueden superar los 500 W| Potencia electrica que consume la GPU|
 |Temperatura| ºC grados celsius| Entre los 60-85ºC| Temperaturas que suelen alcanzar durante su funcionamiento|
 |Rendimiento en videojuegos| Fps fotogramas por segundo|Entre 60 y 144 Fps como referencia, depende de juego resolución y calidad gráfica|Número de fotogramas que se generan o muestran por segundo|  
 ## 4. Tipos, evolución y estándares actuales
@@ -73,7 +73,7 @@ Tipos:
 - Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
 
 Evolución de las GPU
-La evolución de la GPU está relaiconada por su aumento de potencia, la capacidad de memoria y la incorporación de nuevas tecnologías.
+La evolución de la GPU está relacionada por su aumento de potencia, la capacidad de memoria y la incorporación de nuevas tecnologías.
 - Podemos encontrar varias etapas:
   - a) Años 80 - 90: En esta etapa las tarjetas gráficas permitian mostrar imágenes y gráficos 2D. Utilizan chips gráficos básicos.
   - b) Década de los 90: Aparecen las primeras GPU con aceleración 3D. Aparecen DirectX y OpenGL.
@@ -82,9 +82,9 @@ La evolución de la GPU está relaiconada por su aumento de potencia, la capacid
   - e) Años 2020-actualidad, las GPU incorporan inteligencia artificial (IA), ray tracing avanzado y tecnologias de reescalado de imagen.
 
 Las GPU actuales están evolucionando hacia tres grandes áreas, pudiendo agruparlas en:
-    - 1) La IA, ya que se dedican núcleos especializados al entrenamiento de esta y a su ejecución, debido a que ofrece unas grandes ventajas. 
-    - 2) El Ray Tracing, que permite simular el comportamiento de la luz para conseguir reflejos sombras e iluminación mas realistas.
-    - 3) Reescalado mediante IA, que utilizan tecnologias como DLSS de NVIDIA, FSR de AMD para mejorar el rendimiento en videojuegos y mantener una gran calidad de imagen.
+  - 1) La IA, ya que se dedican núcleos especializados al entrenamiento de esta y a su ejecución, debido a que ofrece unas grandes ventajas. 
+  - 2) El Ray Tracing, que permite simular el comportamiento de la luz para conseguir reflejos sombras e iluminación mas realistas.
+  - 3) Reescalado mediante IA, que utilizan tecnologias como DLSS de NVIDIA, FSR de AMD para mejorar el rendimiento en videojuegos y mantener una gran calidad de imagen.
 
 En cuanto a los estándares actuales podemos clasificarlos en Apis gráficas memoria e interfaces de conexión.
  - APIs gráficas, encontramos directX12, Vulkan, metal y OpenGl.
