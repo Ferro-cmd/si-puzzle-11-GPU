@@ -2,8 +2,6 @@
 
 **Grupo:** Pablo Quiros Dominguez · Esteban Amador Fernández
 
-> Máximo 1 folio por las dos caras. Es lo que estudiará toda la clase para el test: claro, exacto y sin relleno.
-
 ## Conceptos clave
 
 - **GPU:** Unidad de Procesamiento Gráfico, en español, es un circuito electrónico que sirve para acelerar el procesamiento informático de gráficos e imágenes. 
