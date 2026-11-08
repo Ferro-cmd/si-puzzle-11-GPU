@@ -87,7 +87,7 @@ d) Salidas de vídeo: Puede deberse a distintos factores, Pueden aparecer pantal
    - d) Todas son correctas <--- Correcta
    - Explicación: No se debe a un único factor su evolución, sino que es un conjunto de ellas, gracias a mejorar las capacidades que tiene y al desarrollo de nuevas tecnologías permiten que su evolución no se quede "estancada".
 
-6.  ¿Qué son los shaders?
+6. ¿Qué son los shaders?
    - a) Un modelo de sistema de refrigeración.
    - b) Puerto por donde conecta la GPU con el monitor.
    - c) Programas que se ejecutan en los núcleos de sombreado.<--- correcto
