@@ -27,22 +27,22 @@
 |Gráficas profesionales|Estan diseñadas para apicaciones profesionales y estaciones de trabajo|Se usa para arquitectura, ingenieria, simulaciones,y renderizado |
 
 ## Datos que hay que saberse
-- La GPU ejecuta la misma operación sobre muchisimos datos a la vez,(cálculo en paralelo).
-- Recibe las instrucciones de la CPU por bus PCIe y envia la imagen final al monitor por HDMI o DisplayPort.
-- Además de gráficos, sirve para entrenar modelos IA, codificar y decodificar vídeo y hacer simulaciones cientficas.
-- Unidades de medida:
-a) Frecuencia Mhz o Ghz.
-b) VRAM en GB.
-c) Rendimiento de cálculo en GFLOPS o TFLOPS.
-d) Ancho de banda, en GB/s, 
-e) Consumo en W.
-f) Temperatura en ºC
-g) Rendimiento en videojuegos FPS.
+La GPU ejecuta la misma operación sobre muchisimos datos a la vez,(cálculo en paralelo).
+Recibe las instrucciones de la CPU por bus PCIe y envia la imagen final al monitor por HDMI o DisplayPort.
+Además de gráficos, sirve para entrenar modelos IA, codificar y decodificar vídeo y hacer simulaciones cientficas.
+Unidades de medida:
+   - a) Frecuencia Mhz o Ghz.
+   - b) VRAM en GB.
+   - c) Rendimiento de cálculo en GFLOPS o TFLOPS.
+   - d) Ancho de banda, en GB/s, 
+   - e) Consumo en W.
+   - f) Temperatura en ºC
+   - g) Rendimiento en videojuegos FPS.
 
-- La evolución de las GPU se debe a diversos factores relacionados entre ellos, el aumento de potencia, el aumento de la capacidad de memoria y su velocidad y a la incorporación de nuevas tecnologías.
+La evolución de las GPU se debe a diversos factores relacionados entre ellos, el aumento de potencia, el aumento de la capacidad de memoria y su velocidad y a la incorporación de nuevas tecnologías.
 
 
-- Averías típicas:
+Averías típicas:
 a) Artefactos visuales: Puede deberse al sobrecalentamiento, drivers mal actualizados,problemas en la fuente de alimentación o al realizar overclock(forzar).
 
 b) Pantalla negra: Puede deberse a un fallo real en la tarjeta física o una mala conexión al monitor. También puede ser por drivers corruptos o desactualizados.
@@ -69,7 +69,7 @@ d) Salidas de vídeo: Puede deberse a distintos factores, Pueden aparecer pantal
 3. ¿En que unidad se mide el ancho de banda de memoria de una GPU?
    - a) Mhz.
    - b) TFLOPS.
-   - c) GB
+   - c) Gb/s
    - d) GB/s <--- correcta
    - Explicación: el ancho de banda indica cuantos datos puede transferir por segundo.
 
