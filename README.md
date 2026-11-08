@@ -5,6 +5,7 @@
 <p align="center">
   <img src="img/RX7900XT_sin_fondo.png" alt="Foto RX 7900 XT" width="400">
 </p>
+
 ## 1. Qué es y qué función cumple en el sistema
 Las siglas GPU, significan "Unidad de Procesamiento Gráfico", en español, y es un circuito electrónico, que sirve para acelerar el procesamiento informático de gráficos e imágenes.  Al principio fue concebido como un procesador especializado en gráficos 3D, comenzó siendo un hardware de función fija, destinada a acelerar operaciones en paralelo durante el renderizado 3D en tiempo real. Durante los años posteriores, adquirieron más capacidad de programación, y en 2003 algunas etapas de canalización gráfica llamada pipeline se volvieron totalmente programables, gracias a esto se permitía la ejecución de código personalizado en paralelo para cada componente de una escena 3d o imagen. 
 
@@ -70,6 +71,26 @@ Tipos:
 - Priorizan la estabilidad y la compatibilidad con programas profesionales.
 - Se utilizan para arquitectura, ingeniería, CAD , simulaciones y renderizado.
 - Ejemplos: NVIDIA RTX PRO Y AMD Radeon PRO.
+
+Evolución de las GPU
+La evolución de la GPU está relaiconada por su aumento de potencia, la capacidad de memoria y la incorporación de nuevas tecnologías.
+- Podemos encontrar varias etapas:
+  - a) Años 80 - 90: En esta etapa las tarjetas gráficas permitian mostrar imágenes y gráficos 2D. Utilizan chips gráficos básicos.
+  - b) Década de los 90: Aparecen las primeras GPU con aceleración 3D. Aparecen DirectX y OpenGL.
+  - c) Años 2000: Aumenta la potencia de cálculo y aparecen los shaders programables.
+  - d) Años 2010: Se popularizan tecnologias como CUDA y el trazado de rayos empieza a desarrollarse.
+  - e) Años 2020-actualidad, las GPU incorporan inteligencia artificial (IA), ray tracing avanzado y tecnologias de reescalado de imagen.
+
+Las GPU actuales están evolucionando hacia tres grandes áreas, pudiendo agruparlas en:
+    - 1) La IA, ya que se dedican núcleos especializados al entrenamiento de esta y a su ejecución, debido a que ofrece unas grandes ventajas. 
+    - 2) El Ray Tracing, que permite simular el comportamiento de la luz para conseguir reflejos sombras e iluminación mas realistas.
+    - 3) Reescalado mediante IA, que utilizan tecnologias como DLSS de NVIDIA, FSR de AMD para mejorar el rendimiento en videojuegos y mantener una gran calidad de imagen.
+
+En cuanto a los estándares actuales podemos clasificarlos en Apis gráficas memoria e interfaces de conexión.
+ - APIs gráficas, encontramos directX12, Vulkan, metal y OpenGl.
+ - Memoria encotramos GDDR6 empezando a aparecer GDDR7 en gráficas de consumo. 
+ - Interfaces de conexión encontramos PCI Express 4.0 y 5.0; salidas de vídeo HDMI2.1 y DisplayPort 2.1; y conectores de alimentación 12 pines o 2x6 pines.
+
 ## 5. Un modelo real: ficha técnica interpretada
 
 **Modelo** Nvidia GeForce RTX 5090 (https://www.nvidia.com/es-es/geforce/graphics-cards/50-series/rtx-5090/)
